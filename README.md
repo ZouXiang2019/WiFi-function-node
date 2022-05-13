@@ -16,7 +16,7 @@ For tool installation steps, please refer to ESP32 CSI Tool (https://stevenmhern
 WiFN (see our paper) consists of two parts: Station and CSI relay. These two parts are connected by SPI bus and handshake line.
 The connection method is as follows:
 ***********            ************
-Station                   CSI relay 
+Station       ***       CSI relay 
 ***********            ************
       MISO**********MOSI
       MOSI**********MISO
