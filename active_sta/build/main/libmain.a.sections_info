@@ -1,0 +1,138 @@
+In archive D:/msys32/home/10249/esp/esp32-csi-tool/active_sta/build/main/libmain.a:
+
+main.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .iram1.14.literal 00000018  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.event_handler 00000044  00000000  00000000  0000004c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.nvs_init 0000002c  00000000  00000000  00000090  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.match_set_timestamp_template 00000008  00000000  00000000  000000bc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal.time_set 00000018  00000000  00000000  000000c4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .literal._http_event_handle 00000028  00000000  00000000  000000dc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .literal.time_string_get 00000014  00000000  00000000  00000104  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .literal.socket_transmitter_sta_loop 00000078  00000000  00000000  00000118  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .literal.spi_write 00000018  00000000  00000000  00000190  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .literal._wifi_csi_cb 00000040  00000000  00000000  000001a8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 10 .literal.csi_init 00000078  00000000  00000000  000001e8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 11 .literal._handle_input 0000001c  00000000  00000000  00000260  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 12 .literal.input_check 0000001c  00000000  00000000  0000027c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 13 .literal.input_loop 00000008  00000000  00000000  00000298  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 14 .literal.station_init 000000b4  00000000  00000000  000002a0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 15 .literal.app_main 00000010  00000000  00000000  00000354  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 16 .text         00000000  00000000  00000000  00000364  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 17 .data         00000000  00000000  00000000  00000364  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 18 .bss          00000000  00000000  00000000  00000364  2**0
+                  ALLOC
+ 19 .iram1.14     0000003a  00000000  00000000  00000364  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 20 .rodata.str1.4 000004db  00000000  00000000  000003a0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 21 .text.event_handler 000000b8  00000000  00000000  0000087c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 22 .text.nvs_init 00000058  00000000  00000000  00000934  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 23 .text.match_set_timestamp_template 0000001f  00000000  00000000  0000098c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 24 .text.time_set 00000047  00000000  00000000  000009ac  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 25 .text._http_event_handle 00000069  00000000  00000000  000009f4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 26 .text.time_string_get 0000003c  00000000  00000000  00000a60  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 27 .text.socket_transmitter_sta_loop 00000117  00000000  00000000  00000a9c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 28 .text.spi_write 00000044  00000000  00000000  00000bb4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 29 .text._wifi_csi_cb 000000de  00000000  00000000  00000bf8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 30 .text.csi_init 00000106  00000000  00000000  00000cd8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 31 .text._handle_input 00000036  00000000  00000000  00000de0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 32 .text.input_check 00000065  00000000  00000000  00000e18  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 33 .text.input_loop 00000014  00000000  00000000  00000e80  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 34 .rodata       00000060  00000000  00000000  00000e94  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 35 .text.station_init 000001df  00000000  00000000  00000ef4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 36 .text.app_main 0000001a  00000000  00000000  000010d4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 37 .rodata.__func__$10611 0000000d  00000000  00000000  000010f0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 38 .bss.lasthandshaketime$10542 00000004  00000000  00000000  00001100  2**2
+                  ALLOC
+ 39 .rodata.__func__$10563 00000009  00000000  00000000  00001100  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 40 .rodata.__func__$10538 0000000a  00000000  00000000  0000110c  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 41 .rodata.__func__$8206 00000009  00000000  00000000  00001118  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 42 .bss.xHandle  00000004  00000000  00000000  00001124  2**2
+                  ALLOC
+ 43 .data.config  00000050  00000000  00000000  00001124  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, DATA
+ 44 .bss.s_retry_num 00000004  00000000  00000000  00001174  2**2
+                  ALLOC
+ 45 .rodata.WIFI_CONNECTED_BIT 00000004  00000000  00000000  00001174  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 46 .bss.s_wifi_event_group 00000004  00000000  00000000  00001178  2**2
+                  ALLOC
+ 47 .bss.input_buffer_pointer 00000004  00000000  00000000  00001178  2**2
+                  ALLOC
+ 48 .data.io_conf 00000018  00000000  00000000  00001178  2**3
+                  CONTENTS, ALLOC, LOAD, DATA
+ 49 .data.devcfg  00000024  00000000  00000000  00001190  2**2
+                  CONTENTS, ALLOC, LOAD, DATA
+ 50 .data.buscfg  00000020  00000000  00000000  000011b4  2**2
+                  CONTENTS, ALLOC, LOAD, DATA
+ 51 .bss.rdySem   00000004  00000000  00000000  000011d4  2**2
+                  ALLOC
+ 52 .data.data17  00000004  00000000  00000000  000011d4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, DATA
+ 53 .bss.real_time_set 00000001  00000000  00000000  000011d8  2**0
+                  ALLOC
+ 54 .debug_frame  00000190  00000000  00000000  000011d8  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 55 .debug_info   000037c9  00000000  00000000  00001368  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 56 .debug_abbrev 00000429  00000000  00000000  00004b31  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 57 .debug_loc    00000549  00000000  00000000  00004f5a  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 58 .debug_aranges 00000098  00000000  00000000  000054a3  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 59 .debug_ranges 00000088  00000000  00000000  0000553b  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 60 .debug_line   00000ce1  00000000  00000000  000055c3  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 61 .debug_str    00002688  00000000  00000000  000062a4  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 62 .comment      0000003c  00000000  00000000  0000892c  2**0
+                  CONTENTS, READONLY
+ 63 .xtensa.info  00000038  00000000  00000000  00008968  2**0
+                  CONTENTS, READONLY
+ 64 .xt.lit       00000080  00000000  00000000  000089a0  2**0
+                  CONTENTS, RELOC, READONLY
+ 65 .xt.prop      00000558  00000000  00000000  00008a20  2**0
+                  CONTENTS, RELOC, READONLY

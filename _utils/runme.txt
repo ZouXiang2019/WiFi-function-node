@@ -1,0 +1,1 @@
+python parse_csi.py > mytest22.csv

@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "stdio.h": "c",
+        "nvs_component.h": "c",
+        "spi_component.h": "c"
+    }
+}

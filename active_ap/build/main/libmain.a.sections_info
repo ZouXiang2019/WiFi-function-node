@@ -1,0 +1,200 @@
+In archive D:/msys32/home/10249/esp/esp32-csi-tool/active_ap/build/main/libmain.a:
+
+main.o:     file format elf32-xtensa-le
+
+Sections:
+Idx Name          Size      VMA       LMA       File off  Algn
+  0 .literal._wifi_csi_cb 00000038  00000000  00000000  00000034  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  1 .literal.event_handler 0000001c  00000000  00000000  0000006c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  2 .literal.nvs_init 0000002c  00000000  00000000  00000088  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  3 .literal.match_set_timestamp_template 00000008  00000000  00000000  000000b4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  4 .literal.time_set 00000018  00000000  00000000  000000bc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  5 .literal.time_string_get 00000014  00000000  00000000  000000d4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  6 .literal.csi_init 00000034  00000000  00000000  000000e8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  7 .literal._handle_input 0000001c  00000000  00000000  0000011c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  8 .literal.input_check 0000001c  00000000  00000000  00000138  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+  9 .literal.input_loop 00000008  00000000  00000000  00000154  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 10 .literal.socket_transmitter_sta_loop2 00000064  00000000  00000000  0000015c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 11 .literal.vTask_socket_transmitter_sta_loop2 00000004  00000000  00000000  000001c0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 12 .literal.socket_transmitter_sta_loop3 00000064  00000000  00000000  000001c4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 13 .literal.vTask_socket_transmitter_sta_loop3 00000004  00000000  00000000  00000228  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 14 .literal.socket_transmitter_sta_loop4 00000064  00000000  00000000  0000022c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 15 .literal.socket_transmitter_sta_loop5 00000064  00000000  00000000  00000290  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 16 .literal.socket_transmitter_sta_loop6 00000064  00000000  00000000  000002f4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 17 .literal.socket_transmitter_sta_loop7 00000064  00000000  00000000  00000358  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 18 .literal.socket_transmitter_sta_loop8 00000064  00000000  00000000  000003bc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 19 .literal.socket_transmitter_sta_loop9 00000064  00000000  00000000  00000420  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 20 .literal.socket_transmitter_sta_loop10 00000064  00000000  00000000  00000484  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 21 .literal.socket_transmitter_sta_loop11 00000064  00000000  00000000  000004e8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 22 .literal.softap_init 000000a4  00000000  00000000  0000054c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 23 .literal.vTask_socket_transmitter_sta_loop4 00000004  00000000  00000000  000005f0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 24 .literal.vTask_socket_transmitter_sta_loop5 00000004  00000000  00000000  000005f4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 25 .literal.vTask_socket_transmitter_sta_loop6 00000004  00000000  00000000  000005f8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 26 .literal.vTask_socket_transmitter_sta_loop7 00000004  00000000  00000000  000005fc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 27 .literal.vTask_socket_transmitter_sta_loop8 00000004  00000000  00000000  00000600  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 28 .literal.vTask_socket_transmitter_sta_loop9 00000004  00000000  00000000  00000604  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 29 .literal.vTask_socket_transmitter_sta_loop10 00000004  00000000  00000000  00000608  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 30 .literal.vTask_socket_transmitter_sta_loop11 00000004  00000000  00000000  0000060c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 31 .literal.app_main 00000030  00000000  00000000  00000610  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 32 .text         00000000  00000000  00000000  00000640  2**0
+                  CONTENTS, ALLOC, LOAD, READONLY, CODE
+ 33 .data         00000000  00000000  00000000  00000640  2**0
+                  CONTENTS, ALLOC, LOAD, DATA
+ 34 .bss          00000000  00000000  00000000  00000640  2**0
+                  ALLOC
+ 35 .rodata.str1.4 000004eb  00000000  00000000  00000640  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 36 .text._wifi_csi_cb 000000c2  00000000  00000000  00000b2c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 37 .text.event_handler 00000089  00000000  00000000  00000bf0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 38 .text.nvs_init 00000058  00000000  00000000  00000c7c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 39 .text.match_set_timestamp_template 0000001f  00000000  00000000  00000cd4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 40 .text.time_set 00000047  00000000  00000000  00000cf4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 41 .text.time_string_get 0000003c  00000000  00000000  00000d3c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 42 .text.csi_init 00000076  00000000  00000000  00000d78  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 43 .text._handle_input 00000034  00000000  00000000  00000df0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 44 .text.input_check 00000065  00000000  00000000  00000e24  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 45 .text.input_loop 00000014  00000000  00000000  00000e8c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 46 .text.socket_transmitter_sta_loop2 000000e7  00000000  00000000  00000ea0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 47 .text.vTask_socket_transmitter_sta_loop2 00000009  00000000  00000000  00000f88  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 48 .text.socket_transmitter_sta_loop3 000000e7  00000000  00000000  00000f94  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 49 .text.vTask_socket_transmitter_sta_loop3 00000009  00000000  00000000  0000107c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 50 .text.socket_transmitter_sta_loop4 000000e7  00000000  00000000  00001088  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 51 .text.socket_transmitter_sta_loop5 000000e3  00000000  00000000  00001170  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 52 .text.socket_transmitter_sta_loop6 000000e7  00000000  00000000  00001254  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 53 .text.socket_transmitter_sta_loop7 000000e7  00000000  00000000  0000133c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 54 .text.socket_transmitter_sta_loop8 000000e7  00000000  00000000  00001424  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 55 .text.socket_transmitter_sta_loop9 000000e7  00000000  00000000  0000150c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 56 .text.socket_transmitter_sta_loop10 000000e7  00000000  00000000  000015f4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 57 .text.socket_transmitter_sta_loop11 000000e7  00000000  00000000  000016dc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 58 .rodata       00000060  00000000  00000000  000017c4  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 59 .text.softap_init 000001d8  00000000  00000000  00001824  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 60 .text.vTask_socket_transmitter_sta_loop4 00000009  00000000  00000000  000019fc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 61 .text.vTask_socket_transmitter_sta_loop5 00000009  00000000  00000000  00001a08  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 62 .text.vTask_socket_transmitter_sta_loop6 00000009  00000000  00000000  00001a14  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 63 .text.vTask_socket_transmitter_sta_loop7 00000009  00000000  00000000  00001a20  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 64 .text.vTask_socket_transmitter_sta_loop8 00000009  00000000  00000000  00001a2c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 65 .text.vTask_socket_transmitter_sta_loop9 00000009  00000000  00000000  00001a38  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 66 .text.vTask_socket_transmitter_sta_loop10 00000009  00000000  00000000  00001a44  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 67 .text.vTask_socket_transmitter_sta_loop11 00000009  00000000  00000000  00001a50  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 68 .text.app_main 00000052  00000000  00000000  00001a5c  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, READONLY, CODE
+ 69 .rodata.__func__$9464 0000000c  00000000  00000000  00001ab0  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 70 .rodata.__func__$8930 00000009  00000000  00000000  00001abc  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 71 .rodata.__func__$8371 00000009  00000000  00000000  00001ac8  2**2
+                  CONTENTS, ALLOC, LOAD, READONLY, DATA
+ 72 .bss.xHandle  00000004  00000000  00000000  00001ad4  2**2
+                  ALLOC
+ 73 .data.data11  00000004  00000000  00000000  00001ad4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, DATA
+ 74 .data.data10  00000004  00000000  00000000  00001ad8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, DATA
+ 75 .data.data9   00000004  00000000  00000000  00001adc  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, DATA
+ 76 .data.data8   00000004  00000000  00000000  00001ae0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, DATA
+ 77 .data.data7   00000004  00000000  00000000  00001ae4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, DATA
+ 78 .data.data6   00000004  00000000  00000000  00001ae8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, DATA
+ 79 .data.data5   00000004  00000000  00000000  00001aec  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, DATA
+ 80 .data.data4   00000004  00000000  00000000  00001af0  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, DATA
+ 81 .data.data3   00000004  00000000  00000000  00001af4  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, DATA
+ 82 .data.data2   00000004  00000000  00000000  00001af8  2**2
+                  CONTENTS, ALLOC, LOAD, RELOC, DATA
+ 83 .bss.input_buffer_pointer 00000004  00000000  00000000  00001afc  2**2
+                  ALLOC
+ 84 .bss.real_time_set 00000001  00000000  00000000  00001afc  2**0
+                  ALLOC
+ 85 .debug_frame  00000310  00000000  00000000  00001afc  2**2
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 86 .debug_info   0000422d  00000000  00000000  00001e0c  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 87 .debug_abbrev 000003fb  00000000  00000000  00006039  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 88 .debug_loc    00000a63  00000000  00000000  00006434  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 89 .debug_aranges 00000118  00000000  00000000  00006e97  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 90 .debug_ranges 000001f8  00000000  00000000  00006faf  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 91 .debug_line   000011dc  00000000  00000000  000071a7  2**0
+                  CONTENTS, RELOC, READONLY, DEBUGGING
+ 92 .debug_str    00001f04  00000000  00000000  00008383  2**0
+                  CONTENTS, READONLY, DEBUGGING
+ 93 .comment      0000003c  00000000  00000000  0000a287  2**0
+                  CONTENTS, READONLY
+ 94 .xtensa.info  00000038  00000000  00000000  0000a2c3  2**0
+                  CONTENTS, READONLY
+ 95 .xt.lit       00000100  00000000  00000000  0000a2fb  2**0
+                  CONTENTS, RELOC, READONLY
+ 96 .xt.prop      00000ad4  00000000  00000000  0000a3fb  2**0
+                  CONTENTS, RELOC, READONLY
