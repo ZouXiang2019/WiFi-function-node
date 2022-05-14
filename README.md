@@ -14,7 +14,6 @@ The following projects can be found in this repository:
 For tool installation steps, please refer to ESP32 CSI Tool (https://stevenmhernandez.github.io/ESP32-CSI-Tool/)
 
 WiFN (see our paper) consists of two parts: Station and CSI relay. These two parts are connected by SPI bus and handshake line.
-Note: we use ESP32 microcontroller not ESP32 development board for WiFN. You can use an ESP32 programmer to write the tool into ESP32 microcontroller.
 The connection method is as follows:
 ***********            ************
 Station       ***       CSI relay 
@@ -27,3 +26,5 @@ Station       ***       CSI relay
 ***********             ************
 
 Note that, both boards use the WiFi frequency band, so they need to be set in different channels (for example, channel1 and channel 5), and the antennas of these two boards must be one on the top and one on the bottom.
+
+Note: we use ESP32 microcontroller not ESP32 development board for WiFN. You can use an ESP32 programmer to write the tool into ESP32 microcontroller.
