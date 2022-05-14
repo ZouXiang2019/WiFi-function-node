@@ -1,4 +1,4 @@
-# WiFi function node
+# WiFi-functioned node
 
 This project is based on ESP32 CSI Tool (https://stevenmhernandez.github.io/ESP32-CSI-Tool/)
 
