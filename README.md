@@ -28,3 +28,5 @@ Station       ***       CSI relay
 Note that, both boards use the WiFi frequency band, so they need to be set in different channels (for example, channel1 and channel 5), and the antennas of these two boards must be one on the top and one on the bottom.
 
 Note: we use ESP32 microcontroller not ESP32 development board for WiFN. You can use an ESP32 programmer to write the tool into ESP32 microcontroller.
+
+The computer runs multiserver.py and collects CSI with .csv file. The collected CSI example is as "example.csv". The totle data has 71 columns, the last column is the timestamp. Columns 2 to 7 from the bottom of the table indicate the MAC address of the CSI relay. The valid data is [3:27 39:64]. Run tableC.m to calibrate the table of .csv file.
